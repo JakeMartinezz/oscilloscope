@@ -1,0 +1,25 @@
+{
+  "name": "oscilloscope",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "test": "node --test 'src/**/*.test.js'"
+  },
+  "dependencies": {
+    "@fontsource/azeret-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@unhead/vue": "^2.1.17",
+    "marked": "^18.0.14",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.3.0",
+    "vite-ssg": "^28.3.0"
+  }
+}
